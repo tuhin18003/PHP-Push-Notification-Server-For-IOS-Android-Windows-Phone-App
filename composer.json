@@ -1,0 +1,20 @@
+{
+    "name": "tuhin18003/php-push-notification-ios-android",
+    "description": "Custom push notification server for IOS, Android & Windows phone APP with PHP. Instead of firebase you can use your own php server to create push notification.",
+    "type": "library",
+    "authors" : [
+        {
+            "name" : "M.Tuhin",
+            "email" : "tuhin@codesolz.com",
+            "homepage" : "http://tuhin.codesolz.com/",
+            "role" : "Developer"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : { "Push_Notification\\" : "src/Push_Notification" }
+    },
+    "require": {
+        "php": "^7.3"
+    },
+    "license": "MIT"
+}
